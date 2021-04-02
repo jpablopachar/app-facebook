@@ -5,10 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="/src/css/tailwind.css">
   <title>Facebook</title>
 </head>
 <body class="bg-gray-100">
-  <nav class="w-full"></nav>
+  <nav class="w-full bg-white shadow-md fixed">
+    <div class="flex items-center bg-red-900 py-1 px-2">
+      <img src="./images/facebook.svg" class="mx-3 my-1" width="55" height="55" alt="facebook">
+      <div class="bg-gray-100 rounded-full p-2">
+        <span><i class="fas fa-search text-gray-300"></i></span>
+        <input type="text" class="bg-transparent" placeholder="Search facebook">
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
